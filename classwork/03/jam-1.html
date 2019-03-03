@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+</head>
+<style>
+	html{
+		font-family: 'ZCOOL KuaiLe', cursive;
+	}
+	body{
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-rows: 100px auto;
+}
+.title{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	display: flex;
+	justify-content: center;
+}
+.sidebar{
+	background-color: violet;
+}
+.content{
+	padding: 1em;
+}
+@media not all and (hover){
+	/*mobile layout*/
+	.sidebar, .content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	h1{
+		font-size: 400%;
+	}
+		body{
+	grid-template-rows: 200px auto auto;
+}
+	.sidebar{
+		display: flex;
+		justify-content: center;
+		font-size: 200%;
+	}
+	ul{
+		list-style: none;
+		margin-left: 0px;
+	}
+}
+</style>
+<body>
+	<div class="title">
+		<h1>Wang</h1>
+	</div>
+	<div class="sidebar">
+		<ul>
+			<li>one</li>
+			<li>two</li>
+			<li>three</li>
+			<li>four</li>
+			<li>five</li>
+			<li>six</li>
+			<li>seven</li>
+			<li>eight</li>
+		</ul>
+	</div>
+	<div>
+		<h3>school</h3>
+		<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</body>
+
+
+
+
+</html>
