@@ -7,7 +7,9 @@
 <script>
 	
 //load our json file
-fetch("water.json")
+var url = "https://raw.githubusercontent.com/WenpeiWang/Core-interaction/master/classwork/09/water.json";
+
+fetch(url)
 	.then(function(response){return response.json();})
 	.then(function(json){ console.log(json); })
 
