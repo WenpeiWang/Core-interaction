@@ -1,21 +1,25 @@
 {
-	"instructions": ["what is the type of your your dog"],
+	"instructions": "what is the type of your your dog?  each answer is a letterinthe alphabet",
+	"questions": [
+		"what is at the left of the letter p?",
+		"I am the biggest alphabet, as I contain the most water in the world. Who am I? ",
+		"I run in and out of town all day and night. What am I?",
+		"From a word of 5 letters, take 2 letters and have 1, what is the first letter u take?",
+		"What always ends everything?"
+	],
+	"shiba": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/11/thelostdog.json",
+	"alask": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/8/lostdog.json",
+	"hound": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/14/lostdog.json",
+	"frise": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/11/lostdoggy.json",
+	"akita": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/9/losteddog.json",
+	"husky": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/8/thelostdog.json",
+	"cairn": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/7/lostdoggy.json",
+	"plott": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/11/dog.json",
+	"boxer": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/13/lostdogs.json",
+	"corgi": "https://raw.githubusercontent.com/yaronerkin/ci19/master/robby-kraft/classwork/11/lostdog.json"
 
 }
 
- [
-  "instruction":
-  				"What's at the end of Christmas? "
-  				"what is at the left of the letter J"
-  				"What letters express the most agreeable people in the world?"
-  				"Why is the figure 9 like a peacock?"
-  				 "What figure increases its value by one-half when turned upside down?"
-  				 "I'm in you, But not in him, I go up, But not down, I'm in the colosseum, But not a tower, I'm in a puzzle, But not a riddle.?"
-  				 "What always ends everything？"
-]
-
-
- #061722
- #712206
- #221709
- #602217
+ 
+  
+  				
